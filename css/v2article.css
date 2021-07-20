@@ -1,0 +1,225 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Acme';
+}
+header {
+  background-image: linear-gradient(rgba(0, 100, 0, 0.5),rgba(100, 0, 0, 0.5),rgba(0, 0, 100, 0.5)), url(../gambar/sea.jpg);
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:  cover;
+  width: 100%;
+}
+.exit {
+  float: left;
+  text-decoration: none;
+  font-size: 40px;
+  color: white;
+  padding: 10px 10px;
+  transition: 0.5s;
+}
+.exit:hover{
+  color: #3EFF00;
+} 
+.logo img{
+  width: 50px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+header .judul h1 {
+  padding-top: 100px;
+  text-decoration: underline;
+  text-align: center;
+  color: #3EFF00;
+  font-size: 60px;
+}
+header .judul p {
+  text-align: center;
+  color: #3EFF00;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.konten {
+  width: 100%;
+}
+.contentleft {
+  width: 25%;
+  float: left;
+}
+.contentleft img {
+  width: 25%;
+  border: 2px solid #3EFF00;
+  background: #3EFF00;
+  margin-left: 120px;
+  margin-top: 20px;
+  border-radius: 100%;
+}
+.contentleft h3{
+  padding: 10px 0;
+  width: 100%;
+  color: #3EFF00;
+  display: inline-block;
+  text-align: center;
+}
+.contentleft p {
+  text-align: center;
+  color: #3EFF00;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.content {
+  width: 75%;
+  background-image: url(../gambar/stick.jpg);
+  background-size: cover;
+  height: auto;
+  float: right;
+  padding-bottom: 80px;
+}
+.content h1 {
+  text-decoration: underline;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #3EFF00;
+  margin-left: 10%;
+}
+.content p {
+  color: white;
+  font-size: 20px;
+  margin:0 10%;
+}
+.content img {
+  width: 100%;
+  padding: 20px 0px;
+}
+
+footer {
+  background: black;
+  width: 100%;
+  display: block;
+}
+.dalem {
+    width: 95%;
+    margin:auto;
+    padding: 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.isi {
+  width: 25%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+.isi h1 {
+  padding: 10px 0;
+  font-size: 25px;
+  color: white;
+}
+.isi p{
+  color: white;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 25px;
+}
+.isi h2 {
+  margin: 10px 0px ;
+  font-size: 16px;
+  color: white;
+  font-weight: lighter;
+  border-bottom: 3px solid #3EFF00;
+}
+.isi ul{
+  list-style-type: none;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+.isi ul li {
+  margin: 5px 0;
+  height: 25px;
+}
+.isi ul a {
+  text-decoration: none;
+  outline: none;
+  color: white;
+  transition: 0.3s;
+}
+.isi ul a:hover {
+  color: #3EFF00;
+}
+.sosmed {
+  width: 100%;
+  text-align: center;
+}
+footer .isi img{
+  border: 1px solid;
+  background: white;
+  width: 15px;
+  margin: 3px 3px;
+}
+footer .sosmed img{
+  background: white;
+  width: 30px;
+  margin: 0 5px;
+  padding: 10px;
+  border: 1px solid white;
+  transition: 0.5s;
+}
+.sosmed img:hover {
+  background:#3EFF00;
+}
+.kopibenar {
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+  border-top: 3px solid #3EFF00;
+  color: #3EFF00;
+}
+.kopibenar p{
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 1085px){
+  .isi {
+    width: 50%;
+  }
+  .navbar ul {
+    display: none;
+  }
+  header {
+    height: auto;
+    padding-bottom: 50px;
+    margin: 0;
+  }
+  header .judul h1{
+    margin-top: 0;
+    text-decoration: underline;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .contentleft img {
+    margin-left: 60px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .isi {
+    width: 100%;
+  }
+  header .judul h1{
+    margin-top: 0;
+    font-size: 40px;
+    text-decoration: underline;
+  }
+  .content {
+    background-size: auto;
+  }
+  .contentleft img {
+    margin-left: 40px;
+  }
+}

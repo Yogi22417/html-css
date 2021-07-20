@@ -1,0 +1,121 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: arial;
+}
+.exit {
+  float: right;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  padding: 0 10px;
+  transition: 0.5s;
+}
+.exit:hover{
+  color: #3EFF00;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 100, 0, 0.5),rgba(0, 100, 0, 0.5)), url("../gambar/dragonnestidn.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.center a {
+  text-align: center;
+}
+.center {
+  width: 350px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: #003300;
+  padding: 40px;
+  border: 2px solid #3EFF00;
+  margin-bottom: 100px;
+}
+
+.center h2 {
+  text-decoration: underline;
+  font-size: 40px;
+  text-align: left;
+  color: #3EFF00;
+  padding-bottom: 40px;
+}
+
+.fl {
+  width: 100%;
+}
+
+.itpw {
+  width: 92%;
+  padding: 13px 10px;
+  margin: 5px 0px;
+  background-color: #002200;
+  border: 3px solid #dbdbdb;
+  color:#3EFF00;
+  transition: all 0.7s;
+}
+
+.its {
+  width: 99.7%;
+  font-size: 19px;
+  color: white;
+  padding: 12px;
+  margin: 5px 0;
+  background-color: #003300;
+  border: 2px solid white;
+  transition: all 0.4s;
+}
+
+.itpw:focus {
+  border-bottom: 3px solid #3EFF00;
+  color: #3EFF00;
+}
+
+.its:hover , .its:focus {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.center p {
+  margin: 20px 0;
+  color: #3EFF00;
+  text-align: center;
+  font-size: 14px;
+}
+
+.center p a {
+  color: #3EFF00;
+}
+@media screen and (max-width:900px) {
+  body {
+    height: auto;
+    width: 100%;
+  }
+  .its {
+    width: 100%;
+  }
+
+  .itpw {
+    font-size: 14px;
+    width: 90%;
+    padding: 13px 3%;
+  }
+
+  .center {
+    width: 230px;
+  }
+
+  .center p {
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (max-width:350px) {
+  .center {
+    padding: 20px;
+    width: 75%;
+  }
+}

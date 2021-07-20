@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+    <meta charset="utf-8">
+    <title>Features</title>
+    <link rel="stylesheet" href="../css/navfoot.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <style media="screen">
+      header {
+        height: auto;
+        padding-bottom: 50px;
+      }
+      .judul h1{
+        color: white;
+        margin-top: 100px;;
+        margin-left: 50px;
+        margin-bottom: 30px;
+      }
+      .content {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        justify-content: center;
+      }
+      .isinya img{
+        width: 100%;
+        height: 300px;
+        border: 4px solid white;
+        border-radius: 10%;
+      }
+      .isinya {
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+      }
+      .isinya .text a {
+        text-decoration: none;
+        color: white;
+      }
+      @media only screen and (max-width: 1085px){
+        header {
+          height: auto;
+          padding-bottom: 50px;
+        }
+        .isinya{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          margin-top: 20px;
+        }
+        .isinya .gambar {
+          width: 75%;
+          float: left;
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        .isinya{
+          width: 75%;
+          display: flex;
+          justify-content: center;
+        }
+        .isinya .gambar {
+          width: 100%;
+          float: left;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="cek">
+      <label for="cek" class="cektombol">
+        <img src="../gambar/menu.png" alt="">
+      </label>
+      <div class="logo">
+        <img src="../gambar/modepesawat.png" alt="">
+      </div>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="kanan"><a href="registrasi.html">Register</a></li>
+        <li class="kanan"><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+    <header>
+        <div class="judul">
+          <h1>Our Features</h1>
+        </div>
+
+        <div class="content">
+
+          <div class="isinya">
+            <div class="gambar">
+              <a href="article.html"><img class="kiri" src="../gambar/sea.jpg" alt=""></a>
+              <div class="text">
+                <a href="article.html"><h2>So Many Character</h2></a>
+                <a href="article.html"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></a>
+              </div>
+            </div>
+          </div>
+          <div class="isinya">
+            <div class="gambar">
+              <a href="#"><img src="../gambar/sea2.jpg" alt=""></a>
+                <div class="text">
+                  <a href="#"><h2>Customize Your Character</h2></a>
+                  <a href="#"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></a>
+                  </div>
+            </div>
+          </div>
+
+          <div class="isinya">
+            <div class="gambar">
+              <a href="#"><img src="../gambar/sea3.jpg" alt=""></a>
+                <div class="text">
+                  <a href="#"><h2>Make Your Own Party</h2></a>
+                  <a href="#"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></a>
+                  </div>
+            </div>
+          </div>
+        </div>
+    </header>
+
+  </body>
+
+  <footer>
+
+    <div class="dalem">
+
+      <div class="isi">
+          <h1>Mode Pesawat</h1>
+          <p>Mode Pesawat adalah salah satu perusahaan
+          ternama yang berdiri sejak kemaren :)</p>
+      </div>
+
+      <div class="isi">
+        <h2>Pages</h2>
+        <div class="border">
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="isi">
+        <h2>Our Service</h2>
+        <div class="border">
+          <ul>
+            <li><a href="article.html">Article</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="registrasi.html">Registrasi</a></li>
+            <li><a href="#">Versi 1</a></li>
+            <li><a href="versi2.html">Versi 2</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="isi">
+        <h2>Contact Us</h2>
+        <div class="border">
+          <ul>
+            <li><img src="../gambar/pin.png"> Jl.CariSendiri Kab.Bandung</li>
+            <li><img src="../gambar/user.png"> 0xxxxxxxxxxx</li>
+            <li><img src="../gambar/mail.png"> example@example.example</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="sosmed">
+        <a href="#"><img src="../gambar/facebook.png"> </a>
+        <a href="#"><img src="../gambar/twitter.png"> </a>
+        <a href="#"><img src="../gambar/instagram.png"> </a>
+        <a href="#"><img src="../gambar/google-plus.png"> </a>
+      </div>
+
+      <div class="kopibenar">
+        <p>@Copyright Mode Pesawat . All right reserved.</p>
+      </div>
+
+    </div>
+
+  </footer>
+</html>

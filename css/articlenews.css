@@ -1,0 +1,214 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Acme';
+}
+header {
+  background-image: linear-gradient(rgba(1000, 0, 0, 0.5),rgba(0, 100, 0, 0.5),rgba(0, 0, 100, 0.5)), url(../gambar/news.jpg);
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:  cover;
+  width: 100%;
+}
+.logo img{
+  width: 50px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+header .judul h1 {
+  padding-top: 100px;
+  text-decoration: underline;
+  text-align: center;
+  color: orange;
+  font-size: 60px;
+}
+header .judul p {
+  text-align: center;
+  color: orange;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.konten {
+  width: 100%;
+}
+.contentleft {
+  width: 25%;
+  float: left;
+}
+.contentleft img {
+  width: 25%;
+  border: 2px solid orange;
+  background: orange;
+  margin-left: 120px;
+  margin-top: 20px;
+  border-radius: 100%;
+}
+.contentleft h3{
+  padding: 10px 0;
+  width: 100%;
+  color: orange;
+  display: inline-block;
+  text-align: center;
+}
+.contentleft p {
+  text-align: center;
+  color: orange;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.content {
+  width: 75%;
+  background-image: url(../gambar/stick.jpg);
+  background-size: cover;
+  height: auto;
+  float: right;
+  padding-bottom: 80px;
+}
+.content h1 {
+  text-decoration: underline;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: orange;
+  margin-left: 10%;
+}
+.content p {
+  color: white;
+  font-size: 20px;
+  margin:0 10%;
+}
+.content img {
+  width: 100%;
+  padding: 20px 0px;
+}
+
+footer {
+  background: black;
+  width: 100%;
+  display: block;
+}
+.dalem {
+    width: 95%;
+    margin:auto;
+    padding: 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.isi {
+  width: 25%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+.isi h1 {
+  padding: 10px 0;
+  font-size: 25px;
+  color: white;
+}
+.isi p{
+  color: white;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 25px;
+}
+.isi h2 {
+  margin: 10px 0px ;
+  font-size: 16px;
+  color: white;
+  font-weight: lighter;
+  border-bottom: 3px solid orange;
+}
+.isi ul{
+  list-style-type: none;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+.isi ul li {
+  margin: 5px 0;
+  height: 25px;
+}
+.isi ul a {
+  text-decoration: none;
+  outline: none;
+  color: white;
+  transition: 0.3s;
+}
+.isi ul a:hover {
+  color: orange;
+}
+.sosmed {
+  width: 100%;
+  text-align: center;
+}
+footer .isi img{
+  border: 1px solid;
+  background: white;
+  width: 15px;
+  margin: 3px 3px;
+}
+footer .sosmed img{
+  background: white;
+  width: 30px;
+  margin: 0 5px;
+  padding: 10px;
+  border: 1px solid white;
+  transition: 0.5s;
+}
+.sosmed img:hover {
+  background:orange;
+}
+.kopibenar {
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+  border-top: 3px solid orange;
+  color: orange;
+}
+.kopibenar p{
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 1085px){
+  .isi {
+    width: 50%;
+  }
+  .navbar ul {
+    display: none;
+  }
+  header {
+    height: auto;
+    padding-bottom: 50px;
+    margin: 0;
+  }
+  header .judul h1{
+    margin-top: 0;
+    text-decoration: underline;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .contentleft img {
+    margin-left: 60px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .isi {
+    width: 100%;
+  }
+  header .judul h1{
+    margin-top: 0;
+    font-size: 40px;
+    text-decoration: underline;
+  }
+  .content {
+    background-size: auto;
+  }
+  .contentleft img {
+    margin-left: 40px;
+  }
+}
